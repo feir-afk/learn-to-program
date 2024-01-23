@@ -35,7 +35,6 @@ function areObjectsEqual(obj1, obj2) {
 console.log(areObjectsEqual(person1, person2)); // Output: true
 
 // most important to learn in memory!
-// https://chat.openai.com/c/34808638-0da5-4eb4-bd1d-4814ed13e5c2
 console.log("---------- Most Important ----------");
 let obj1 = { name: "John" };
 let obj2 = { name: "John" };
