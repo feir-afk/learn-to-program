@@ -1,11 +1,11 @@
 const path = require("path");
 console.log(path.sep);
 
-const filePath = path.join("/", "notes.txt");
+const filePath = path.join("/content", "/subfolder/", "first.txt");
 console.log(filePath);
 
 const base = path.basename(filePath);
 console.log(base);
 
-const absolute = path.resolve(__dirname("/", "notes.txt"));
+const absolute = path.resolve(__dirname, "content", "subfolder", "second.txt");
 console.log(absolute);

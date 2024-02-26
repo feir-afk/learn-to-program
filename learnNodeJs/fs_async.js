@@ -8,7 +8,7 @@ readFile("./content/subfolder/first.txt", "utf8", (err, result) => {
 });
 
 writeFile(
-  "./content/subfolder/notes.txt",
+  "./content/subfolder/second.txt",
   "Hello from fs_async.js file!",
   (err, result) => {
     if (err) {
