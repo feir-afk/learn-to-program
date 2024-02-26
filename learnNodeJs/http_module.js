@@ -1,12 +1,12 @@
-import * as z from "http";
+const http = require("http");
 
-const server = z.createServer((req, res) => {
+const server = http.createServer((req, res) => {
   if (req.url === "/") {
     res.write("Home Page");
-    // res.end("Home Page");
+    res.end();
   } else if (req.url === "/about") {
     res.write("About Page");
-    // res.end("About Page");
+    res.end();
   } else {
     res.end(`<a href="/">Back home</a>`);
   }
